@@ -1,0 +1,58 @@
+.App {
+  background: url('https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F691668%2Fpexels-photo-691668.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26fit%3Dcrop%26h%3D627%26w%3D1200') center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+}
+
+.activity-container {
+  width: 60vw;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+.activity-card {
+  background: white;
+  border: 2px solid black;
+  width: 20vw;
+  height: 45vh;
+  list-style-type: none;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 6px;
+  font-size: 22px;
+}
+
+.activity-card img {
+  width: 20vw;
+  height: 20vh;
+}
+
+
+.gear-item {
+  background: white;
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  border: 2px black solid;
+  align-items: center;
+  border-radius: 10px;
+}
