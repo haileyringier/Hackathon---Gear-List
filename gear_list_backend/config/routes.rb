@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :activities
   resources :gears
+  resources :activities
 end

@@ -12,7 +12,7 @@ class ActivitiesController < ApplicationController
     end
 
     def create 
-        @activity  = Activity.create(type: params[:type], image: params[:image])
+        @activity  = Activity.create(name: params[:name], image: params[:image])
 
         render json: @activity 
     end
@@ -26,7 +26,7 @@ class ActivitiesController < ApplicationController
 
     def update
         @activity = Activity.fin(params[:id])
-        @activity.update(type: params[:type], image: params[:image])
+        @activity.update(name: params[:name], image: params[:image])
 
         render json: @activity, status: :updated
     end

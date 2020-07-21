@@ -4,8 +4,10 @@ one:
   type: 
   quantity: 1
   checked: false
+  activity: one
 
 two:
   type: 
   quantity: 1
   checked: false
+  activity: two
